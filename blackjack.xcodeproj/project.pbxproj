@@ -18,7 +18,6 @@
 		3168539D195CE78D00DD0B96 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3168539B195CE78D00DD0B96 /* Main_iPad.storyboard */; };
 		316853A0195CE78D00DD0B96 /* BJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3168539F195CE78D00DD0B96 /* BJViewController.m */; };
 		316853A3195CE78D00DD0B96 /* BJMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 316853A2195CE78D00DD0B96 /* BJMyScene.m */; };
-		316853A5195CE78D00DD0B96 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 316853A4195CE78D00DD0B96 /* Spaceship.png */; };
 		316853A7195CE78D00DD0B96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316853A6195CE78D00DD0B96 /* Images.xcassets */; };
 		316853AE195CE78D00DD0B96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316853AD195CE78D00DD0B96 /* XCTest.framework */; };
 		316853AF195CE78D00DD0B96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31685384195CE78D00DD0B96 /* Foundation.framework */; };
@@ -55,7 +54,6 @@
 		3168539F195CE78D00DD0B96 /* BJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJViewController.m; sourceTree = "<group>"; };
 		316853A1195CE78D00DD0B96 /* BJMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJMyScene.h; sourceTree = "<group>"; };
 		316853A2195CE78D00DD0B96 /* BJMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJMyScene.m; sourceTree = "<group>"; };
-		316853A4195CE78D00DD0B96 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		316853A6195CE78D00DD0B96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		316853AC195CE78D00DD0B96 /* blackjackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blackjackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		316853AD195CE78D00DD0B96 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -131,7 +129,6 @@
 				3168539F195CE78D00DD0B96 /* BJViewController.m */,
 				316853A1195CE78D00DD0B96 /* BJMyScene.h */,
 				316853A2195CE78D00DD0B96 /* BJMyScene.m */,
-				316853A4195CE78D00DD0B96 /* Spaceship.png */,
 				316853A6195CE78D00DD0B96 /* Images.xcassets */,
 				3168538D195CE78D00DD0B96 /* Supporting Files */,
 			);
@@ -247,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316853A5195CE78D00DD0B96 /* Spaceship.png in Resources */,
 				316853A7195CE78D00DD0B96 /* Images.xcassets in Resources */,
 				3168539D195CE78D00DD0B96 /* Main_iPad.storyboard in Resources */,
 				3168539A195CE78D00DD0B96 /* Main_iPhone.storyboard in Resources */,
@@ -492,6 +488,7 @@
 				316853BF195CE78D00DD0B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		316853C0195CE78D00DD0B96 /* Build configuration list for PBXNativeTarget "blackjackTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +497,7 @@
 				316853C2195CE78D00DD0B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
