@@ -16,14 +16,14 @@
 		31685397195CE78D00DD0B96 /* BJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31685396195CE78D00DD0B96 /* BJAppDelegate.m */; };
 		3168539A195CE78D00DD0B96 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31685398195CE78D00DD0B96 /* Main_iPhone.storyboard */; };
 		3168539D195CE78D00DD0B96 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3168539B195CE78D00DD0B96 /* Main_iPad.storyboard */; };
-		316853A0195CE78D00DD0B96 /* BJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3168539F195CE78D00DD0B96 /* BJViewController.m */; };
-		316853A3195CE78D00DD0B96 /* BJMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 316853A2195CE78D00DD0B96 /* BJMyScene.m */; };
 		316853A7195CE78D00DD0B96 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 316853A6195CE78D00DD0B96 /* Images.xcassets */; };
 		316853AE195CE78D00DD0B96 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 316853AD195CE78D00DD0B96 /* XCTest.framework */; };
 		316853AF195CE78D00DD0B96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31685384195CE78D00DD0B96 /* Foundation.framework */; };
 		316853B0195CE78D00DD0B96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31685388195CE78D00DD0B96 /* UIKit.framework */; };
 		316853B8195CE78D00DD0B96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 316853B6195CE78D00DD0B96 /* InfoPlist.strings */; };
 		316853BA195CE78D00DD0B96 /* blackjackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316853B9195CE78D00DD0B96 /* blackjackTests.m */; };
+		31C8DA68195CEC33009171F2 /* BJScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8DA67195CEC33009171F2 /* BJScene.swift */; };
+		31C8DA6A195CECAA009171F2 /* BJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C8DA69195CECAA009171F2 /* BJViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,16 +50,15 @@
 		31685396195CE78D00DD0B96 /* BJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJAppDelegate.m; sourceTree = "<group>"; };
 		31685399195CE78D00DD0B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		3168539C195CE78D00DD0B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		3168539E195CE78D00DD0B96 /* BJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJViewController.h; sourceTree = "<group>"; };
-		3168539F195CE78D00DD0B96 /* BJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJViewController.m; sourceTree = "<group>"; };
-		316853A1195CE78D00DD0B96 /* BJMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BJMyScene.h; sourceTree = "<group>"; };
-		316853A2195CE78D00DD0B96 /* BJMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BJMyScene.m; sourceTree = "<group>"; };
 		316853A6195CE78D00DD0B96 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		316853AC195CE78D00DD0B96 /* blackjackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blackjackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		316853AD195CE78D00DD0B96 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		316853B5195CE78D00DD0B96 /* blackjackTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "blackjackTests-Info.plist"; sourceTree = "<group>"; };
 		316853B7195CE78D00DD0B96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		316853B9195CE78D00DD0B96 /* blackjackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blackjackTests.m; sourceTree = "<group>"; };
+		31C8DA66195CEC32009171F2 /* blackjack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "blackjack-Bridging-Header.h"; sourceTree = "<group>"; };
+		31C8DA67195CEC33009171F2 /* BJScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJScene.swift; sourceTree = "<group>"; };
+		31C8DA69195CECAA009171F2 /* BJViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BJViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,16 +120,15 @@
 		3168538C195CE78D00DD0B96 /* blackjack */ = {
 			isa = PBXGroup;
 			children = (
+				31C8DA67195CEC33009171F2 /* BJScene.swift */,
+				31C8DA69195CECAA009171F2 /* BJViewController.swift */,
+				316853A6195CE78D00DD0B96 /* Images.xcassets */,
+				3168538D195CE78D00DD0B96 /* Supporting Files */,
 				31685395195CE78D00DD0B96 /* BJAppDelegate.h */,
 				31685396195CE78D00DD0B96 /* BJAppDelegate.m */,
 				31685398195CE78D00DD0B96 /* Main_iPhone.storyboard */,
 				3168539B195CE78D00DD0B96 /* Main_iPad.storyboard */,
-				3168539E195CE78D00DD0B96 /* BJViewController.h */,
-				3168539F195CE78D00DD0B96 /* BJViewController.m */,
-				316853A1195CE78D00DD0B96 /* BJMyScene.h */,
-				316853A2195CE78D00DD0B96 /* BJMyScene.m */,
-				316853A6195CE78D00DD0B96 /* Images.xcassets */,
-				3168538D195CE78D00DD0B96 /* Supporting Files */,
+				31C8DA66195CEC32009171F2 /* blackjack-Bridging-Header.h */,
 			);
 			path = blackjack;
 			sourceTree = "<group>";
@@ -266,10 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				316853A0195CE78D00DD0B96 /* BJViewController.m in Sources */,
 				31685397195CE78D00DD0B96 /* BJAppDelegate.m in Sources */,
-				316853A3195CE78D00DD0B96 /* BJMyScene.m in Sources */,
+				31C8DA6A195CECAA009171F2 /* BJViewController.swift in Sources */,
 				31685393195CE78D00DD0B96 /* main.m in Sources */,
+				31C8DA68195CEC33009171F2 /* BJScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,12 +402,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blackjack/blackjack-Prefix.pch";
 				INFOPLIST_FILE = "blackjack/blackjack-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "blackjack/blackjack-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,12 +421,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "blackjack/blackjack-Prefix.pch";
 				INFOPLIST_FILE = "blackjack/blackjack-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "blackjack/blackjack-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
