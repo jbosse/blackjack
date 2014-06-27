@@ -16,7 +16,7 @@ class BJViewController: UIViewController {
         let skView = self.view as SKView
         skView.showsFPS = false
         skView.showsNodeCount = false
-        skView.presentScene(createScene(skView.bounds.size))
+        skView.presentScene(createScene(CGSizeMake(640, 1136)))
     }
 
     override func shouldAutorotate() -> Bool {
